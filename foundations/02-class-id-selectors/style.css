@@ -1,0 +1,22 @@
+/* style.css */
+
+.p-b {
+    background-color: rgb(245, 178, 190);
+    font-family: DejaVu Sans;
+
+   }
+
+.p-s {
+    font-size: 24px;
+}
+#id-1 {
+  color: rgb(6, 6, 248);
+  font-size: 36px;
+
+}
+
+#id-2 {
+  font-weight: bold;
+  background-color: rgb(144, 238, 144);
+  font-size: 24px;
+}
