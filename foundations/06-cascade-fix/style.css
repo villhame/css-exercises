@@ -1,23 +1,26 @@
 body{
   font-family:Arial, Helvetica, sans-serif
 }
-
+/* Oder of these classes were important for the first couple of lines */
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
 
+.para {
+  font-size: 22px;
+}
 .small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
+/* added a id element instead of the confirm class.
+This is because of its specificity. HTML looks strange now.
+Too many classes and ids? */
 
-.confirm {
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,7 +32,9 @@ body{
   font-size: 20px;
 }
 
-.child {
+/* Next part */
+
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
@@ -40,3 +45,4 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+
