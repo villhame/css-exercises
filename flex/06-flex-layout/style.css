@@ -25,3 +25,45 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* my sol */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+ 
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;  
+  margin: 0;
+  padding: 0;
+
+}
+.footer {
+
+  
+  background-color: #eee;
+}
+
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: black;
+}
